@@ -13,4 +13,12 @@ var Name = 'Hasan Jamil';
 //In JavaScript, a 'let' variable can be declared only once in a particular scope. 
 let num = 5;
 num = 7;
-console.log(num);
+//console.log(num);
+
+
+/*
+*==================== Use Of const ====================
+*/
+//In JavaScript, it is not possible to reassign a value to a variable declared with const. 
+const number = 5;
+console.log(number);
