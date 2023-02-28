@@ -13,7 +13,7 @@ const students = [
 
 const scic = students.filter((s) => s.avg >= 50 && s.fiftyPercent === true);
 const names = scic.map(n => n.name);
-console.log(names);
+//console.log(names);
 
 
 
@@ -33,4 +33,30 @@ const jamais = polapain.filter(pola => (pola.job === 'Sorkari' && pola.salary >=
 
 const jamaiList = jamais.map(nam => nam.name);
 //console.log(jamais);
-console.log(jamaiList);
+//console.log(jamaiList);
+
+
+
+
+/*
+*==================== Convert Array Of Objects To Single Object using map or foreach ====================
+*/
+const persons = [
+    { id: 'ID01', name: 'Abul Vai', age: 23 },
+    { id: 'ID02', name: 'Babul Vai', age: 23 },
+    { id: 'ID03', name: 'Habul Vai', age: 23 },
+    { id: 'ID04', name: 'Jabul Vai', age: 23 }
+];
+
+const info = {};
+
+persons.map(p => {
+    // console.log(p);
+    // console.log(info[p.id] = p.name);
+    const id = p.id;
+    const value = p.name;
+
+    info[id] = value;
+});
+//console.log(info);
+console.log(info.ID01);
