@@ -4,15 +4,15 @@ Here I have practiced JavaScript ES6.
 //--- Core Concepts ----//
 
 Introduction To ES6
-1. var let const - done
-2. scopes in javascript - done
-3. templates string - done
-4. ternary operator - done
-5. Array Spreading - done
-6. Object Spreading-done
-7. Object Accessing- done
-8. Optional Chaining of Object = done
-9. Function with default parameters = done
+1. var let const 
+2. scopes in javascript 
+3. templates string 
+4. ternary operator 
+5. Array Spreading 
+6. Object Spreading
+7. Object Accessing
+8. Optional Chaining of Object 
+9. Function with default parameters
 10. Arrow Function
 11. Array Foreach,Map,Filter,Find Function
 
@@ -26,7 +26,7 @@ Introduction To ES6
 4. API Array Access
 
 
-//------- If (dhorjo && somoy) duitai thake -----//
+//------- More JavaScript ES6 -----//
 
   Array Reduce Method
   Class 
