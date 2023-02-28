@@ -14,3 +14,23 @@ const students = [
 const scic = students.filter((s) => s.avg >= 50 && s.fiftyPercent === true);
 const names = scic.map(n => n.name);
 console.log(names);
+
+
+
+/*
+*==================== Find Stable Jamai using Filter Method ====================
+*/
+const polapain = [
+    { name: 'Abul', job: 'Sorkari', salary: 17000 },
+    { name: 'Babul', job: 'Besorkari', salary: 25000 },
+    { name: 'Kabul', job: 'Sorkari', salary: 21000 },
+    { name: 'Habul', job: 'Besorkari', salary: 47000 },
+    { name: 'Jabul', job: 'Sorkari', salary: 23000 },
+    { name: 'Mabul', job: 'Besorkari', salary: 55000 }
+];
+
+const jamais = polapain.filter(pola => (pola.job === 'Sorkari' && pola.salary >= 20000) || (pola.job === 'Besorkari' && pola.salary >= 40000));
+
+const jamaiList = jamais.map(nam => nam.name);
+//console.log(jamais);
+console.log(jamaiList);
