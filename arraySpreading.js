@@ -19,5 +19,12 @@ let num2 = [...num1];
 num1.push(55);
 num2.push(99);
 
-console.log(num1);
-console.log(num2);
+//console.log(num1);
+//console.log(num2);
+
+
+//More Array Spreading
+const arr = [2, 3, 4, 5, 8, 1];
+const [first, second, ...remain] = arr;
+console.log(first, second);
+console.log(remain);
